@@ -26,7 +26,7 @@ function App() {
       <Switch>
         <Route path='/' exact> <Main posts={posts} setPosts={setPosts} /> </Route>
         <Route path='/add'> <AddPost posts={posts} setPosts={setPosts} /> </Route>
-        {/* <Redirect to={'/'}/> */}
+        <Redirect to={'/'}/>
       </Switch>
     </div>
   );
