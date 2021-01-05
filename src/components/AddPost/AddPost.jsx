@@ -34,7 +34,6 @@ function AddPost({posts, setPosts}) {
           cols="45" 
           id="input__text" 
           placeholder="Your text"
-          resize="none"
           />
         <button className="add__btn" onClick={addPost}>Add</button>
       </div>
