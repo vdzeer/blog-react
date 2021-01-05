@@ -1,3 +1,27 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  outline: none;
+}
+
+input {
+  outline: none;
+  padding: 5px 15px;
+  font-size: 16px;
+}
+
+.add__btn {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  padding: 5px 20px;
 }

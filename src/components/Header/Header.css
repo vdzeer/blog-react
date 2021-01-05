@@ -1,0 +1,33 @@
+.header {
+  text-align: center;
+  padding: 30px;
+  background-color: #6F2480;
+}
+
+.header ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header ul li {
+  margin-right: 30px;
+}
+
+.header ul li:last-child {
+  margin-right: 0;
+}
+
+.active {
+  font-weight: 700;
+}
+
+.header__link {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
